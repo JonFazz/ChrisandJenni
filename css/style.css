@@ -18,7 +18,7 @@ body {
     transform-style: preserve-3d;
     z-index: -1;
   }
-  
+
   .background {
     transform: translateZ(-5px) scale(1.5);
   }
@@ -50,24 +50,36 @@ body {
   }
   
   ul {
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;
+
     overflow: hidden;
     background-color: #046306;
   }
   
-  li {
-    float: left;
+  .langtoggle li{
+    float: left; 
+  }
+
+  .navbar{
+    text-align: center;
+  }
+  .navbar li {
+    display: inline-block;
   }
   
   li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 20px;
     text-decoration: none;
   }
+
+.langtoggle ul{
+    margin: 2px 2px;
+}
   
   li a:hover {
     background-color: #1B842C;
