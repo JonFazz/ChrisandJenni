@@ -151,3 +151,11 @@ body {
   .body2 a:hover, a:active {
     background-color:rgb(225, 179, 63);
   }
+
+  footer{
+    background-color: #046306;
+    text-align: left;
+    padding: 15px 0;
+    font-size: 16px;
+
+  }
