@@ -84,9 +84,9 @@ body {
 }
   
   li a:hover {
-    background-color: #1B842C;
+    background-color:rgb(225, 179, 63);
   }
-
+  
   .thewhen {
     font-size: 5rem; 
     text-align: center;
@@ -120,4 +120,33 @@ body {
     margin-top: 20px;
     margin-right: 20px;
     margin-left: 20px;
+  }
+
+  .body2{
+    background-color:#a2bfa6;
+    padding-left: 1%;
+    padding-right: 1%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .body2 a:link, a:visited {
+    background-color:#046306;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .body2 a:hover, a:active {
+    background-color:rgb(225, 179, 63);
   }
